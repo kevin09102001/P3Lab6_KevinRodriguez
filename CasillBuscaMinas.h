@@ -1,4 +1,5 @@
-
+#ifndef CASILLBUSCAMINAS_H
+#define CASILLBUSCAMINAS_H
 class CasillBuscaMinas
 {
 	public:
@@ -20,3 +21,4 @@ class CasillBuscaMinas
 		char display;
 		bool marcada;
 };
+#endif

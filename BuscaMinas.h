@@ -1,4 +1,5 @@
-
+#ifndef BUSCAMINAS_H
+#define BUSCAMINAS_H
 #include "Tablero.h"
 
 class BuscaMinas
@@ -12,3 +13,4 @@ class BuscaMinas
 		Tablero* tablero;
 		
 };
+#endif

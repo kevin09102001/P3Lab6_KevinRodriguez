@@ -1,3 +1,5 @@
+#ifndef TABLERO_H
+#define TABLERO_H
 
 #include "CasillBuscaMinas.h"
 #include <string>
@@ -20,3 +22,4 @@ class Tablero
 		CasillBuscaMinas*** tablero;
 		
 };
+#endif

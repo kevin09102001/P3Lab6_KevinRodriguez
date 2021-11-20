@@ -3,8 +3,8 @@
 #include <stdlib.h>      
 #include <time.h> 
 #include <iostream>
-using std::cout;
-using std::endl;
+
+using namespace std;
 
 
 Tablero::Tablero(int diff)
@@ -55,8 +55,7 @@ void Tablero :: llenarTablero(int bombas,int size){
 		else{
 	   		i--;
 		}		
-	}
-		
+	}	
 }
 
 void Tablero :: imprimirTablero(int size){
@@ -81,6 +80,7 @@ void Tablero:: liberarMemoria(int size){
 		}
 		delete [] this->tablero;
  }
+ 
 Tablero::~Tablero(){
 }
  
